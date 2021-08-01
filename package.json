@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/danveb/node-files#readme",
   "dependencies": {
-    "api": "^3.3.0"
+    "api": "^3.3.0",
+    "axios": "^0.21.1"
   }
 }
