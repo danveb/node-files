@@ -1,0 +1,22 @@
+{
+  "name": "node-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "step1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danveb/node-files.git"
+  },
+  "author": "danveb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danveb/node-files/issues"
+  },
+  "homepage": "https://github.com/danveb/node-files#readme",
+  "dependencies": {
+    "api": "^3.3.0"
+  }
+}
