@@ -1,5 +1,7 @@
 // import fs (file system) 
+// import process 
 const fs = require('fs') 
+const process = require('process') 
 
 function cat(path) {
     // read file (one.txt on same directory) 
@@ -8,7 +10,7 @@ function cat(path) {
         // "err" handling 
         if(err) {
             console.log('Error', err)
-            process.kill(1) 
+            process.exit(1) 
         }
         console.log(data) 
     })
